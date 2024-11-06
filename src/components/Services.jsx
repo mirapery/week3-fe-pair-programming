@@ -15,4 +15,20 @@ const Services = () => {
     </section>
   )
 }
+
+{/* Alternative option
+  <div className='section-center services-center'>
+{services.map((service) => {
+  return (
+    <Service
+      icon={service.icon}
+      title={service.title}
+      text={service.text}
+      key={service.id}
+    />
+  );
+})}
+</div>
+*/}
+
 export default Services
